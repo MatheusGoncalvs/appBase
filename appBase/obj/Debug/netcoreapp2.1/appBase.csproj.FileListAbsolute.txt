@@ -1,0 +1,14 @@
+C:\Users\Teu\source\repos\appBase\appBase\bin\Debug\netcoreapp2.1\appBase.deps.json
+C:\Users\Teu\source\repos\appBase\appBase\bin\Debug\netcoreapp2.1\appBase.runtimeconfig.json
+C:\Users\Teu\source\repos\appBase\appBase\bin\Debug\netcoreapp2.1\appBase.runtimeconfig.dev.json
+C:\Users\Teu\source\repos\appBase\appBase\bin\Debug\netcoreapp2.1\appBase.dll
+C:\Users\Teu\source\repos\appBase\appBase\bin\Debug\netcoreapp2.1\appBase.pdb
+C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.csprojAssemblyReference.cache
+C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.csproj.CoreCompileInputs.cache
+C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.RazorAssemblyInfo.cache
+C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.RazorAssemblyInfo.cs
+C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.AssemblyInfoInputs.cache
+C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.AssemblyInfo.cs
+C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.RazorTargetAssemblyInfo.cache
+C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.dll
+C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.pdb

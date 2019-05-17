@@ -12,13 +12,14 @@ namespace appBase
 {
     public class Program
     {
+        //Este método fica escutando solicitações web na porta 80 ou qualquer outra porta web;
         public static void Main(string[] args)
         {
-            CreateWebHostBuilder(args).Build().Run();
+            CreateWebHostBuilder(args).Build().Run();//Aqui ele cria o host e começa a "ouvir";
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+            WebHost.CreateDefaultBuilder(args) //Cria um construtor padrão para o WebHost.. 
+                .UseStartup<Startup>(); //... E então ele informa qual classe utilizará(startup.cs) para configurar como ouvir solicitações Web.
     }
 }

@@ -20,11 +20,8 @@ namespace appBase
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-
+            //Ao receber uma requisição web, retorne Hello World a qualquer momento;
+            //Mesmo que utilize uma URL diferente ele sempre dará essa resposta à requisição;
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("Hello World!");
