@@ -20,12 +20,10 @@ namespace appBase
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            //Ao receber uma requisição web, retorne Hello World a qualquer momento;
-            //Mesmo que utilize uma URL diferente ele sempre dará essa resposta à requisição;
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
+            app.UseDefaultFiles();//utiliza arquivos padrão como a index para ser página principal. (*A ordem da chamada dos métodos deve ser essa.)
+            //Quando recebe uma requisição, ele utiliza arquivos estáticos como resposta.
+            //Eles somente funcionam dentro da pasta: wwwroot(Que é a raiz para web no asp.net core)
+            app.UseStaticFiles();
         }
     }
 }
