@@ -12,3 +12,12 @@ C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.Assemb
 C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.RazorTargetAssemblyInfo.cache
 C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.dll
 C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.pdb
+C:\Users\Teu\source\repos\appBase\appBase\bin\Debug\netcoreapp2.1\appBase.Views.dll
+C:\Users\Teu\source\repos\appBase\appBase\bin\Debug\netcoreapp2.1\appBase.Views.pdb
+C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.TagHelpers.input.cache
+C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.TagHelpers.output.cache
+C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.RazorCoreGenerate.cache
+C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\Razor\Views\App\index.g.cshtml.cs
+C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.RazorTargetAssemblyInfo.cs
+C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.Views.pdb
+C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.csproj.CopyComplete

@@ -1,0 +1,60 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input, textarea {
+    font-size: 18px;
+    width: 200px;
+}
+
+input[type=submit] {
+    width: auto;
+}
+
+label {
+    font-size: 16px;
+}
+
+/*Manipula o document pelo id*/
+#theForm {
+    background-color: lightgray;
+}
+
+/*seleciona um input especificado pelo id*/
+#theForm input[type=submit] {
+    background-color: forestgreen;
+    color: white;
+}
+
+/*manipulo o elemento button que está dentro da div*/
+div button {
+    background-color: forestgreen;
+    color: white;
+}
+
+/*Somentes as ul recebem a font*/
+ul.product-props {
+    font-size: small;
+}
+
+/*As li dentro da ul com a classe product-props não recebem estilo*/
+ul.product-props li {
+    list-style-type: none;
+}
+
+.product-info {
+    border: 1px solid gray;
+    display: inline-block;
+    padding: 8px 2px;
+    margin: 2px;
+    width: 450px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.product-info img {
+    margin: 3px;
+    float: left;/*faz com que a img utilize somente o espaco necessário e fique na esquerda*/
+    border: 1px solid black;
+    max-width: 150px;
+}

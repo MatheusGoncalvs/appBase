@@ -1,13 +1,16 @@
-﻿<!DOCTYPE html>
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Dutch Treat</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <title>Dutch Treat: @ViewBag.Title</title>
+    <link rel="stylesheet" type="text/css" href="~/css/main.css" />
 </head>
 <body>
-    <h1>Dutch Treat</h1>
+    <h1>@ViewBag.Title</h1>
     <div class="product-info">
-        <img src="imgs/vgg.jpg" alt="Van Gogh"/>
+        <img src="~/imgs/vgg.jpg" alt="Van Gogh" />
         <h3>Mug</h3>
         <ul class="product-props">
             <li><strong>Price: </strong>$9.99</li>
