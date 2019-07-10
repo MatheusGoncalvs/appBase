@@ -21,3 +21,5 @@ C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\Razor\Views\Ap
 C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.RazorTargetAssemblyInfo.cs
 C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.Views.pdb
 C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\appBase.csproj.CopyComplete
+C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs

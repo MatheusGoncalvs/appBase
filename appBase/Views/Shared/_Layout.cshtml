@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dutch Treat: @ViewBag.Title</title>
+    <link rel="stylesheet" type="text/css" href="~/css/main.css" />
+</head>
+<body>
+    <header>Welcome to Dutch Threat</header>
+    <section>
+        <h1>@ViewBag.Title</h1>
+    </section>
+    @RenderBody()
+    <footer>Copyright 2019 - Dutch Threat</footer>
+</body>
+</html>
