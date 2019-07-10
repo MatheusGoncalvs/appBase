@@ -22,6 +22,13 @@ namespace appBase
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            if(env.IsDevelopment())
+            {
+                //configura uma página de erro para desenvolvedor
+                app.UseDeveloperExceptionPage();
+            }
+            
+
             //utiliza arquivos padrão como a index para ser página principal. (*A ordem da chamada dos métodos deve ser essa.)
             //app.UseDefaultFiles(); //Desabilitei para usar o padrao MVC e não utilizar a página default do WWWRoot.
 
