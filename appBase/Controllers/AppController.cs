@@ -12,5 +12,14 @@ namespace appBase.Controllers
         {
             return View();
         }
+        public IActionResult About()
+        {
+            ViewBag.Title = "About";
+            return View();
+        }
+        public IActionResult Contact()
+        {
+            return View();
+        }
     }
 }
