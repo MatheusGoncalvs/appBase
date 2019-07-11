@@ -27,6 +27,10 @@ namespace appBase
                 //configura uma página de erro para desenvolvedor
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler("/error");
+            }
             
 
             //utiliza arquivos padrão como a index para ser página principal. (*A ordem da chamada dos métodos deve ser essa.)

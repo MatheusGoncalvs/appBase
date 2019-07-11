@@ -16,6 +16,7 @@ namespace appBase.Controllers
         [HttpGet("About")]
         public IActionResult About()
         {
+            throw new InvalidOperationException("Bad Things Happen.");
             ViewBag.Title = "About";
             return View();
         }
@@ -23,6 +24,7 @@ namespace appBase.Controllers
         [HttpGet("Contact")]
         public IActionResult Contact()
         {
+            
             return View();
         }
     }
