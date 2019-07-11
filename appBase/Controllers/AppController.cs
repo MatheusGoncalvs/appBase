@@ -12,11 +12,15 @@ namespace appBase.Controllers
         {
             return View();
         }
+        //O link com TagHelper funcionará normalmente.
+        [HttpGet("About")]
         public IActionResult About()
         {
             ViewBag.Title = "About";
             return View();
         }
+        //Alteração na rota para a página contact. O link sem TagHelper dará erro.
+        [HttpGet("Contact")]
         public IActionResult Contact()
         {
             return View();

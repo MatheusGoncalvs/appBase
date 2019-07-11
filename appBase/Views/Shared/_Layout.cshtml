@@ -12,15 +12,10 @@
         <h2>Welcome to Dutch Threat</h2>
         <nav>
             <ul>
-                <a href="/">
-                    <li>Index</li>
-                </a>
-                <a href="/app/contact">
-                    <li>About</li>
-                </a>
-                <a href="/app/about">
-                    <li>Contact Us</li>
-                </a>
+                <li><a asp-controller="App" asp-action="Index">Home</a></li>
+                <li><a asp-controller="App" asp-action="About">About</a></li>
+                <!--Os links da forma abaixo são frágeis. Qualquer mudança de rota ou alteração levará a erros. Com os TagHelpers acima isso não ocorre.-->
+                <li><a href="/app/contact">Contact</a></li>
             </ul>
         </nav>
     </header>
