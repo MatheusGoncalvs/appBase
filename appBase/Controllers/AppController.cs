@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using appBase.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace appBase.Controllers
@@ -13,7 +14,7 @@ namespace appBase.Controllers
             return View();
         }
         //O link com TagHelper funcionará normalmente.
-        [HttpGet("About")]
+        [HttpGet("about")]
         public IActionResult About()
         {
             throw new InvalidOperationException("Bad Things Happen.");
@@ -21,10 +22,20 @@ namespace appBase.Controllers
             return View();
         }
         //Alteração na rota para a página contact. O link sem TagHelper dará erro.
-        [HttpGet("Contact")]
+        [HttpGet("contact")]
         public IActionResult Contact()
         {
-            
+            return View();
+        }
+        [HttpGet("contact2")]
+        public IActionResult Contact2()
+        {
+            return View();
+        }
+
+        [HttpPost("contact2")]
+        public IActionResult Contact2(ContactViewModel model)
+        {
             return View();
         }
     }

@@ -58,7 +58,7 @@ using appBase.Controllers;
             WriteLiteral("    <div class=\"product-info\">\r\n        ");
             EndContext();
             BeginContext(81, 43, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "0f5a34b1779d424cbf2ce9ddb5d215cf", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "0631af1dac774eb4823b4fc865b9edb6", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -88,7 +88,7 @@ using appBase.Controllers;
         ");
             EndContext();
             BeginContext(494, 556, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "67a77942570f438bb614f2f50c4b935e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d4c8c0f2e96c4c64bc019e90effe1121", async() => {
                 BeginContext(500, 543, true);
                 WriteLiteral(@"
             <label>Your Name:</label>

@@ -1,0 +1,27 @@
+﻿<!--Para utilizar os TagHelpers | apontando para a classe-->
+@model ContactViewModel
+@{ 
+    ViewBag.Title = "Contact Us";
+}
+<div id="theForm">
+    <form method="post">
+        <label asp-for="Name">Your Name:</label>
+        </br>
+        <input type="text" asp-for="Name"/>
+        </br>
+        <label asp-for="Email">Your Email:</label>
+        </br>
+        <input type="text" asp-for="Email"/>
+        </br>
+        <label asp-for="Subject">Subject:</label>
+        </br>
+        <input type="text" name="subject"/>
+        </br>
+        <label asp-for="Message">Your Message:</label>
+        </br>
+        <textarea rows="4" name="message"></textarea>
+        </br>
+        <input type="submit" value="Send Message" />
+        </br>
+    </form>
+</div>
