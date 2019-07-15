@@ -18,8 +18,13 @@ using appBase.Controllers;
 
 #line default
 #line hidden
+#line 2 "C:\Users\Teu\source\repos\appBase\appBase\Views\_ViewImports.cshtml"
+using appBase.ViewModels;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"41b652b316c7c094e083bf1973650af395e92d79", @"/Views/Shared/_Layout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f07a85f1842f50de427ed0d9e06e037f5b16c326", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6872e1f0ad2d2fcbe62f7330a596af4bd10ff44f", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__Layout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("rel", new global::Microsoft.AspNetCore.Html.HtmlString("stylesheet"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -64,7 +69,7 @@ using appBase.Controllers;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(66, 132, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96354314210a4dc6b7c906620b4d5a5e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5b71075de56f413a8c7fae587b73c5c0", async() => {
                 BeginContext(72, 26, true);
                 WriteLiteral("\r\n    <title>Dutch Treat: ");
                 EndContext();
@@ -79,7 +84,7 @@ using appBase.Controllers;
                 WriteLiteral("</title>\r\n    ");
                 EndContext();
                 BeginContext(126, 63, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "abafa79908a44c0dabb4caa3985df56a", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "75d092b09cc840db93f5b07d03d999fb", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -114,12 +119,12 @@ using appBase.Controllers;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(200, 750, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7eb77333cb6a4eb391c232ec6078aabd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dee04cfdd11b464bbcbba1f81ac2f1d7", async() => {
                 BeginContext(206, 111, true);
                 WriteLiteral("\r\n    <header>\r\n        <h2>Welcome to Dutch Threat</h2>\r\n        <nav>\r\n            <ul>\r\n                <li>");
                 EndContext();
                 BeginContext(317, 51, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c3d3671c245d4108a3abe43838f2b639", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52f4c8354f4b487c9e97dc3fd7661b0c", async() => {
                     BeginContext(360, 4, true);
                     WriteLiteral("Home");
                     EndContext();
@@ -143,7 +148,7 @@ using appBase.Controllers;
                 WriteLiteral("</li>\r\n                <li>");
                 EndContext();
                 BeginContext(395, 52, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b16ed9c33ac945ef975bcd2a5ed24a4a", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "616036ff063e48ec876972e48ec426de", async() => {
                     BeginContext(438, 5, true);
                     WriteLiteral("About");
                     EndContext();
@@ -167,7 +172,7 @@ using appBase.Controllers;
                 WriteLiteral("</li>\r\n                <!--Os links da forma abaixo são frágeis. Qualquer mudança de rota ou alteração levará a erros. Com os TagHelpers acima isso não ocorre.-->\r\n                <li><a href=\"/app/contact\">Contact</a></li>\r\n                <li>");
                 EndContext();
                 BeginContext(692, 59, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b8b4cace493940149b1da177f87eece3", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "465195d5bf8c4c25ad2ace05adfb10aa", async() => {
                     BeginContext(738, 9, true);
                     WriteLiteral("Contact 2");
                     EndContext();

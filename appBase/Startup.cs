@@ -47,6 +47,9 @@ namespace appBase
                     "{controller}/{action}/{id?}",
                     new { controller = "App", Action = "Index" });
             });
+
+            //Utilizar controle de pacotes NPM
+            app.UseNodeModules(env);
         }
     }
 }
