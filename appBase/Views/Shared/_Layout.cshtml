@@ -22,8 +22,10 @@
     </header>
     <section>
         <h1>@ViewBag.Title</h1>
+        @RenderBody()
     </section>
-    @RenderBody()
     <footer>Copyright 2019 - Dutch Threat</footer>
+    <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    @RenderSection("scripts", false)
 </body>
 </html>

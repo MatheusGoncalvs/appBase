@@ -36,6 +36,15 @@ namespace appBase.Controllers
         [HttpPost("contact2")]
         public IActionResult Contact2(ContactViewModel model)
         {
+            if (ModelState.IsValid)
+            {
+                //Send email
+            }
+            else
+            {
+                //Show the errors
+            }
+
             return View();
         }
     }
