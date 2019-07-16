@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using appBase.Services;
 using appBase.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,6 +10,13 @@ namespace appBase.Controllers
 {
     public class AppController : Controller
     {
+        private readonly INullMailService mailService;
+
+        public AppController(INullMailService mailService)
+        {
+            this.mailService = mailService;
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -39,6 +47,9 @@ namespace appBase.Controllers
             if (ModelState.IsValid)
             {
                 //Send email
+                mailService.SendMessage("matheusgoncalvs@hotmail.com", model.Subject, $"From: {model.Name} - {model.Email}, Message:{ model.Message}");
+                ViewBag.UserMessage = "Mail Sent";
+                ModelState.Clear();
             }
             else
             {
