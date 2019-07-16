@@ -5,27 +5,45 @@
 <html>
 <head>
     <title>Dutch Treat: @ViewBag.Title</title>
-    <link rel="stylesheet" type="text/css" href="~/css/main.css" />
+    <link href="~/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="~/css/main1.css" />
 </head>
 <body>
-    <header>
-        <h2>Welcome to Dutch Threat</h2>
-        <nav>
-            <ul>
-                <li><a asp-controller="App" asp-action="Index">Home</a></li>
-                <li><a asp-controller="App" asp-action="About">About</a></li>
-                <!--Os links da forma abaixo são frágeis. Qualquer mudança de rota ou alteração levará a erros. Com os TagHelpers acima isso não ocorre.-->
-                <li><a href="/app/contact">Contact</a></li>
-                <li><a asp-controller="App" asp-action="Contact2">Contact 2</a></li>
-            </ul>
+    <header class="container">
+        
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+            <h2 class="navbar-brand">Welcome to Dutch Threat</h2>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#theMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="theMenu" class="navbar-collapse collapse">
+                <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <a class="nav-link" asp-controller="App" asp-action="Index">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" asp-controller="App" asp-action="About">About</a>
+                    </li>
+                    <!--Os links da forma abaixo são frágeis. Qualquer mudança de rota ou alteração levará a erros. Com os TagHelpers acima isso não ocorre.-->
+                    <li class="navbar-item">
+                        <a class="nav-link" href="/app/contact">Contact</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" asp-controller="App" asp-action="Contact2">Contact 2</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <section>
-        <h1>@ViewBag.Title</h1>
+    <section class="container">
+        <h1 class="text-center">@ViewBag.Title</h1>
         @RenderBody()
     </section>
-    <footer>Copyright 2019 - Dutch Threat</footer>
+    <footer class="container">
+        <h6 class="text-center">Copyright 2019 - Dutch Threat</h6>
+    </footer>
     <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="~/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     @RenderSection("scripts", false)
 </body>
 </html>
