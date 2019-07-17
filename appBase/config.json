@@ -1,0 +1,8 @@
+{
+  "Colors": {
+    "Favorite": "blue"
+  },
+  "ConnectionStrings": {
+    "appBaseConnectionString": "server=DESKTOP-IU15PIR\\SEKHARSQL;Database=appBaseDb;Integrated Security=true;MultipleActiveResultSets=true"
+  }
+}

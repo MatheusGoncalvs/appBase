@@ -19,7 +19,18 @@ namespace appBase
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args) //Cria um construtor padrão para o WebHost.. 
-                .UseStartup<Startup>(); //... E então ele informa qual classe utilizará(startup.cs) para configurar como ouvir solicitações Web.
+            //Cria um construtor padrão para o WebHost.. 
+            WebHost.CreateDefaultBuilder(args)
+                .ConfigureAppConfiguration(SetupConfiguration)
+                //... E então ele informa qual classe utilizará(startup.cs) para configurar como ouvir solicitações Web.
+                .UseStartup<Startup>();
+
+        private static void SetupConfiguration(WebHostBuilderContext context, IConfigurationBuilder builder)
+        {
+            //Removendo as opções de configuração padrão.
+            builder.Sources.Clear();
+            //Adiciona o arquivo json de configuração. false=não ser opcional, true=reloadOnChange
+            builder.AddJsonFile("config.json", false, true);
+        }
     }
 }

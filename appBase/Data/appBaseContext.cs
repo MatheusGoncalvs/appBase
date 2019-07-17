@@ -10,6 +10,11 @@ namespace appBase.Data
 {
     public class appBaseContext : DbContext
     {
+        //Pega a connectionString e passa para o dbContext. Assim ele sabe qual connectionString utilizar.
+        public appBaseContext(DbContextOptions<appBaseContext> options):base(options)
+        {
+        }
+
         public DbSet<Product> Products { get; set; }
         public DbSet<Order> Orders { get; set; }
     }
