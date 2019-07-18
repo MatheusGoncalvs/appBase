@@ -29,3 +29,4 @@ C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\Razor\Views\_V
 C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
 C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.g.cshtml.cs
 C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\Razor\Views\App\contact2.g.cshtml.cs
+C:\Users\Teu\source\repos\appBase\appBase\obj\Debug\netcoreapp2.1\Razor\Views\App\Shop.g.cshtml.cs

@@ -1,0 +1,9 @@
+﻿<!--Define o tipo de modelo que estamos utilizando. Sabendo o tipo haverá o Intellisense para ajudar-->
+@model IEnumerable<Product>
+
+<h1>Shop</h1>
+<p>Count: @Model.Count()</p>
+@foreach (var p in Model)
+{
+    <li>@p.Title</li>
+}

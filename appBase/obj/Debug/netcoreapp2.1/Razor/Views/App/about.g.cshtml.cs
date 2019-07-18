@@ -23,8 +23,13 @@ using appBase.ViewModels;
 
 #line default
 #line hidden
+#line 3 "C:\Users\Teu\source\repos\appBase\appBase\Views\_ViewImports.cshtml"
+using DutchTreat.Data.Entities;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b6d7bf9e3f665940cba7a3e38f882d4b608ad9ef", @"/Views/App/about.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6872e1f0ad2d2fcbe62f7330a596af4bd10ff44f", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e0db0b996b660f46c45df1706a16f5e024d68803", @"/Views/_ViewImports.cshtml")]
     public class Views_App_about : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

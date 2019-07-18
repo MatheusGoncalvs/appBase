@@ -23,8 +23,13 @@ using appBase.ViewModels;
 
 #line default
 #line hidden
+#line 3 "C:\Users\Teu\source\repos\appBase\appBase\Views\_ViewImports.cshtml"
+using DutchTreat.Data.Entities;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4557097277f6ced2703946424c1180b9fef719d1", @"/Views/App/contact.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6872e1f0ad2d2fcbe62f7330a596af4bd10ff44f", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e0db0b996b660f46c45df1706a16f5e024d68803", @"/Views/_ViewImports.cshtml")]
     public class Views_App_contact : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -54,7 +59,7 @@ using appBase.ViewModels;
             WriteLiteral("<h2>Contact Us</h2>\r\n<div id=\"theForm\">\r\n    ");
             EndContext();
             BeginContext(45, 480, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7f7f4d288c984ff8b2e7a148be140bf5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c092dcabc9d2408f894f8743d7e4228c", async() => {
                 BeginContext(51, 467, true);
                 WriteLiteral(@"
         <label>Your Name:</label>

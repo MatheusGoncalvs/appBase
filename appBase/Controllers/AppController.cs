@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using appBase.Data;
 using appBase.Services;
 using appBase.ViewModels;
 using Microsoft.AspNetCore.Mvc;
@@ -11,10 +12,12 @@ namespace appBase.Controllers
     public class AppController : Controller
     {
         private readonly INullMailService mailService;
+        private readonly appBaseContext context;
 
-        public AppController(INullMailService mailService)
+        public AppController(INullMailService mailService, appBaseContext context)
         {
             this.mailService = mailService;
+            this.context = context;
         }
 
         public IActionResult Index()
@@ -57,6 +60,13 @@ namespace appBase.Controllers
             }
 
             return View();
+        }
+        public IActionResult Shop()
+        {
+            var results = context.Products
+                .OrderBy(p => p.Category)
+                .ToList();
+            return View(results);
         }
     }
 }
