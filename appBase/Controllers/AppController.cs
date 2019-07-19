@@ -22,6 +22,7 @@ namespace appBase.Controllers
 
         public IActionResult Index()
         {
+            var results = context.Products.ToList();
             return View();
         }
         //O link com TagHelper funcionará normalmente.

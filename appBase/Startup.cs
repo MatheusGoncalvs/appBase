@@ -31,6 +31,8 @@ namespace appBase
                 cfg.UseSqlServer(configuration.GetConnectionString("appBaseConnectionString"));
             });
 
+            services.AddTransient<appBaseSeeder>();
+
             services.AddTransient<INullMailService, NullMailService>();
             //Support Real mail service
 
