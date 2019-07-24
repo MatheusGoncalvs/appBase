@@ -31,6 +31,8 @@ namespace appBase
                 cfg.UseSqlServer(configuration.GetConnectionString("appBaseConnectionString"));
             });
 
+            services.AddScoped<IappBaseRepository, appBaseRepository>();
+
             services.AddTransient<appBaseSeeder>();
 
             services.AddTransient<INullMailService, NullMailService>();

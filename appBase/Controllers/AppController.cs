@@ -12,17 +12,17 @@ namespace appBase.Controllers
     public class AppController : Controller
     {
         private readonly INullMailService mailService;
-        private readonly appBaseContext context;
+        private readonly IappBaseRepository repository;
 
-        public AppController(INullMailService mailService, appBaseContext context)
+        public AppController(INullMailService mailService, IappBaseRepository repository)
         {
             this.mailService = mailService;
-            this.context = context;
+            this.repository = repository;
         }
 
         public IActionResult Index()
         {
-            var results = context.Products.ToList();
+            //var results = context.Products.ToList();
             return View();
         }
         //O link com TagHelper funcionará normalmente.
@@ -64,9 +64,8 @@ namespace appBase.Controllers
         }
         public IActionResult Shop()
         {
-            var results = context.Products
-                .OrderBy(p => p.Category)
-                .ToList();
+            var results = repository.GetAllProducts();
+
             return View(results);
         }
     }
