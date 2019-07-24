@@ -59,7 +59,7 @@ using DutchTreat.Data.Entities;
             WriteLiteral("<h2>Contact Us</h2>\r\n<div id=\"theForm\">\r\n    ");
             EndContext();
             BeginContext(45, 480, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0c883605e2af4ca0a4a30f4b8a353f68", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6aeca2a6ce3f4714ab31ee56ff5c043e", async() => {
                 BeginContext(51, 467, true);
                 WriteLiteral(@"
         <label>Your Name:</label>

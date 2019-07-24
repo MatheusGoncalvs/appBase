@@ -4,5 +4,11 @@
   },
   "ConnectionStrings": {
     "appBaseConnectionString": "server=DESKTOP-IU15PIR\\SEKHARSQL;Database=appBaseDb;Integrated Security=true;MultipleActiveResultSets=true"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning"
+    }
   }
 }
